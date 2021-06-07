@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56860" started-at="2021-05-27T11:28:43 IST" finished-at="2021-05-27T11:29:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56860" started-at="2021-05-27T11:28:43 IST" finished-at="2021-05-27T11:29:40 IST">
+      <class name="activities.Activity3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:activities.Activity3@7e2d773b]" name="setUp" is-config="true" duration-ms="1923" started-at="2021-05-27T11:28:43 IST" finished-at="2021-05-27T11:28:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addPets()[pri:1, instance:activities.Activity3@7e2d773b]" name="addPets" duration-ms="26383" started-at="2021-05-27T11:28:45 IST" finished-at="2021-05-27T11:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPets -->
+        <test-method status="PASS" signature="getPets(int,java.lang.String,java.lang.String)[pri:2, instance:activities.Activity3@7e2d773b]" name="getPets" duration-ms="9284" started-at="2021-05-27T11:29:11 IST" data-provider="petInfoProvider" finished-at="2021-05-27T11:29:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77232]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riley]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPets -->
+        <test-method status="PASS" signature="getPets(int,java.lang.String,java.lang.String)[pri:2, instance:activities.Activity3@7e2d773b]" name="getPets" duration-ms="8055" started-at="2021-05-27T11:29:20 IST" data-provider="petInfoProvider" finished-at="2021-05-27T11:29:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77233]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hansel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPets -->
+        <test-method status="PASS" signature="deletePets(int,java.lang.String,java.lang.String)[pri:3, instance:activities.Activity3@7e2d773b]" name="deletePets" duration-ms="8052" started-at="2021-05-27T11:29:28 IST" data-provider="petInfoProvider" finished-at="2021-05-27T11:29:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77232]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riley]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePets -->
+        <test-method status="PASS" signature="deletePets(int,java.lang.String,java.lang.String)[pri:3, instance:activities.Activity3@7e2d773b]" name="deletePets" duration-ms="3003" started-at="2021-05-27T11:29:37 IST" data-provider="petInfoProvider" finished-at="2021-05-27T11:29:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77233]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hansel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePets -->
+      </class> <!-- activities.Activity3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

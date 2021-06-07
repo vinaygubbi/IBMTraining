@@ -1,0 +1,894 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Opening a webpage using Selenium",
+        "description": "",
+        "id": "first-test;opening-a-webpage-using-selenium",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10875857600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on Google Home Page",
+            "match": {
+              "location": "GoogleSearchSteps.userIsOnGooglePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261140200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 26,
+                "value": "#    And some other precondition"
+              }
+            ],
+            "line": 27,
+            "name": "User types in Cheese and hits ENTER",
+            "match": {
+              "location": "GoogleSearchSteps.userTypesInCheeseAndHitsENTER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1769853300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 28,
+                "value": "#    And some other action"
+              },
+              {
+                "line": 29,
+                "value": "#    And yet another action"
+              }
+            ],
+            "line": 30,
+            "name": "Show how many search results were shown",
+            "match": {
+              "location": "GoogleSearchSteps.showHowManySearchResultsWereShown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1250038300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Close the browser",
+            "match": {
+              "location": "GoogleSearchSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "First Test",
+    "description": "I want to use this template for my feature file",
+    "id": "first-test",
+    "keyword": "Feature",
+    "uri": "Activity1_1.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@activity1_1"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 23,
+            "value": "#  @tag1"
+          }
+        ],
+        "line": 24,
+        "name": "Testing Login",
+        "description": "",
+        "id": "login-test;testing-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8751319700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on Login page",
+            "match": {
+              "location": "LoginTestSteps.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431741700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 26,
+                "value": "#    And some other precondition"
+              }
+            ],
+            "line": 27,
+            "name": "User enters username and password",
+            "match": {
+              "location": "LoginTestSteps.enterCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133005500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 28,
+                "value": "#    And some other action"
+              },
+              {
+                "line": 29,
+                "value": "#    And yet another action"
+              }
+            ],
+            "line": 30,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "LoginTestSteps.readTitleAndHeading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1159327400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "I want to use this template for my feature file",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Activity1_2.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@activity1_2"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test for Simple Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-simple-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9090816500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the page",
+            "match": {
+              "location": "AlertTestSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103030800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the Simple Alert button",
+            "match": {
+              "location": "AlertTestSteps.openSimpleAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9393600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Alert opens",
+            "match": {
+              "location": "AlertTestSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6598100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "AlertTestSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42811500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the alert",
+            "match": {
+              "location": "AlertTestSteps.closeAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1263080100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close Browser",
+            "match": {
+              "location": "AlertTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SimpleAlert"
+          },
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Test for Confirm Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-confirm-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11033310000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on the page",
+            "match": {
+              "location": "AlertTestSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90529200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks the Confirm Alert button",
+            "match": {
+              "location": "AlertTestSteps.openConfirmAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4312900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Alert opens",
+            "match": {
+              "location": "AlertTestSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4097600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "AlertTestSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39868300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the alert with Cancel",
+            "match": {
+              "location": "AlertTestSteps.closeAlertWithCAncel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1051135500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close Browser",
+            "match": {
+              "location": "AlertTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@ConfirmAlert"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Test for Prompt Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-prompt-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11729914700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the page",
+            "match": {
+              "location": "AlertTestSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119317500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks the Prompt Alert button",
+            "match": {
+              "location": "AlertTestSteps.openPromptAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4890700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Alert opens",
+            "match": {
+              "location": "AlertTestSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9923200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "AlertTestSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20244200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Write a custom message in it",
+            "match": {
+              "location": "AlertTestSteps.writeToPrompt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43509100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Close the alert",
+            "match": {
+              "location": "AlertTestSteps.closeAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1250697500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Close Browser",
+            "match": {
+              "location": "AlertTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@PromptAlert"
+          }
+        ]
+      }
+    ],
+    "name": "Testing with Tags",
+    "description": "",
+    "id": "testing-with-tags",
+    "keyword": "Feature",
+    "uri": "Activity1_3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@activity1_3"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-without-example;testing-with-data-from-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11114733100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "LoginTestSteps.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 434116500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginTestSteps.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83691300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "LoginTestSteps.readTitleAndHeading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1162831500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Data driven test without Example",
+    "description": "",
+    "id": "data-driven-test-without-example",
+    "keyword": "Feature",
+    "uri": "Activity2_4.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@activity2_4"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-with-example;testing-with-data-from-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8344817200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "LoginTestSteps.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447640000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginTestSteps.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106552900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "LoginTestSteps.readTitleAndHeading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1496887600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@activity2_5"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-with-example;testing-with-data-from-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7846922300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "LoginTestSteps.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494435500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"adminUser\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adminUser",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginTestSteps.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128675300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "LoginTestSteps.readTitleAndHeading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1167314600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@activity2_5"
+          }
+        ]
+      }
+    ],
+    "name": "Data driven test with Example",
+    "description": "",
+    "id": "data-driven-test-with-example",
+    "keyword": "Feature",
+    "uri": "Activity2_5.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@activity2_5"
+      }
+    ]
+  }
+]

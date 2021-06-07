@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="24" passed="22" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting Test |]]>
+    </line>
+    <line>
+      <![CDATA[Opened Browser |]]>
+    </line>
+    <line>
+      <![CDATA[Page title is Javascript Alerts |]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Setup started |]]>
+    </line>
+    <line>
+      <![CDATA[simpleAlertTestCase() started |]]>
+    </line>
+    <line>
+      <![CDATA[Simple Alert opened |]]>
+    </line>
+    <line>
+      <![CDATA[Switched foucs to alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is: This is a JavaScript Alert! |]]>
+    </line>
+    <line>
+      <![CDATA[Alert closed]]>
+    </line>
+    <line>
+      <![CDATA[Test case ended |]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Setup started |]]>
+    </line>
+    <line>
+      <![CDATA[confirmAlertTestCase() started |]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Alert opened |]]>
+    </line>
+    <line>
+      <![CDATA[Switched foucs to alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is: This is a JavaScript Confirmation! |]]>
+    </line>
+    <line>
+      <![CDATA[Alert closed |]]>
+    </line>
+    <line>
+      <![CDATA[Test case ended |]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Setup started |]]>
+    </line>
+    <line>
+      <![CDATA[promptAlertTestCase() started |]]>
+    </line>
+    <line>
+      <![CDATA[Prompt Alert opened |]]>
+    </line>
+    <line>
+      <![CDATA[Switched foucs to alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is: This is a JavaScript Prompt! |]]>
+    </line>
+    <line>
+      <![CDATA[Text entered in prompt alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert closed |]]>
+    </line>
+    <line>
+      <![CDATA[Test case ended |]]>
+    </line>
+    <line>
+      <![CDATA[Ending Test |]]>
+    </line>
+    <line>
+      <![CDATA[Min value: 29]]>
+    </line>
+    <line>
+      <![CDATA[Min value: 80]]>
+    </line>
+    <line>
+      <![CDATA[Max value: 100]]>
+    </line>
+    <line>
+      <![CDATA[Mid value: 49]]>
+    </line>
+    <line>
+      <![CDATA[Min value: 0]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-05T20:32:39 IST" name="Suite" finished-at="2021-06-05T20:33:35 IST" duration-ms="56577">
+    <groups>
+      <group name="ButtonTests">
+        <method signature="Activity5.pageTitleTest()[pri:0, instance:activities.Activity5@51e69659]" name="pageTitleTest" class="activities.Activity5"/>
+        <method signature="Activity5.ButtonTest1()[pri:0, instance:activities.Activity5@51e69659]" name="ButtonTest1" class="activities.Activity5"/>
+        <method signature="Activity5.ButtonTest2()[pri:0, instance:activities.Activity5@51e69659]" name="ButtonTest2" class="activities.Activity5"/>
+      </group> <!-- ButtonTests -->
+      <group name="HeaderTests">
+        <method signature="Activity5.pageTitleTest()[pri:0, instance:activities.Activity5@51e69659]" name="pageTitleTest" class="activities.Activity5"/>
+        <method signature="Activity5.HeaderTest1()[pri:0, instance:activities.Activity5@51e69659]" name="HeaderTest1" class="activities.Activity5"/>
+        <method signature="Activity5.HeaderTest2()[pri:0, instance:activities.Activity5@51e69659]" name="HeaderTest2" class="activities.Activity5"/>
+      </group> <!-- HeaderTests -->
+    </groups>
+    <test started-at="2021-06-05T20:32:39 IST" name="Tests" finished-at="2021-06-05T20:33:35 IST" duration-ms="56577">
+      <class name="activities.Activity10">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:20 IST" name="beforeClass" finished-at="2021-06-05T20:33:30 IST" duration-ms="10424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="sliderTo30Test()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:30 IST" name="sliderTo30Test" finished-at="2021-06-05T20:33:31 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Min value: 29]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderTo30Test -->
+        <test-method signature="sliderTo80Test()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:31 IST" name="sliderTo80Test" finished-at="2021-06-05T20:33:31 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Min value: 80]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderTo80Test -->
+        <test-method signature="sliderToMaxTest()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:31 IST" name="sliderToMaxTest" finished-at="2021-06-05T20:33:32 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Max value: 100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderToMaxTest -->
+        <test-method signature="sliderToMiddleTest()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:32 IST" name="sliderToMiddleTest" finished-at="2021-06-05T20:33:32 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mid value: 49]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderToMiddleTest -->
+        <test-method signature="sliderToMinTest()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:32 IST" name="sliderToMinTest" finished-at="2021-06-05T20:33:32 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Min value: 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sliderToMinTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:activities.Activity10@4b8ee4de]" started-at="2021-06-05T20:33:32 IST" name="afterClass" finished-at="2021-06-05T20:33:33 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- activities.Activity10 -->
+      <class name="suiteExample.DemoOne">
+        <test-method signature="firstTestCase()[pri:0, instance:suiteExample.DemoOne@61001b64]" started-at="2021-06-05T20:32:54 IST" name="firstTestCase" finished-at="2021-06-05T20:32:54 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method signature="secondTestCase()[pri:0, instance:suiteExample.DemoOne@61001b64]" started-at="2021-06-05T20:32:54 IST" name="secondTestCase" finished-at="2021-06-05T20:32:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+      </class> <!-- suiteExample.DemoOne -->
+      <class name="activities.Activity9">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:32:55 IST" name="setUp" finished-at="2021-06-05T20:33:17 IST" duration-ms="22489" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Test |]]>
+            </line>
+            <line>
+              <![CDATA[Opened Browser |]]>
+            </line>
+            <line>
+              <![CDATA[Page title is Javascript Alerts |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:17 IST" name="beforeMethod" finished-at="2021-06-05T20:33:17 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Setup started |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="simpleAlertTestCase()[pri:0, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:17 IST" name="simpleAlertTestCase" finished-at="2021-06-05T20:33:17 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[simpleAlertTestCase() started |]]>
+            </line>
+            <line>
+              <![CDATA[Simple Alert opened |]]>
+            </line>
+            <line>
+              <![CDATA[Switched foucs to alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert text is: This is a JavaScript Alert! |]]>
+            </line>
+            <line>
+              <![CDATA[Alert closed]]>
+            </line>
+            <line>
+              <![CDATA[Test case ended |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- simpleAlertTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:17 IST" name="beforeMethod" finished-at="2021-06-05T20:33:17 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Setup started |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="confirmAlertTestCase()[pri:1, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:17 IST" name="confirmAlertTestCase" finished-at="2021-06-05T20:33:18 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[confirmAlertTestCase() started |]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Alert opened |]]>
+            </line>
+            <line>
+              <![CDATA[Switched foucs to alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert text is: This is a JavaScript Confirmation! |]]>
+            </line>
+            <line>
+              <![CDATA[Alert closed |]]>
+            </line>
+            <line>
+              <![CDATA[Test case ended |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmAlertTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:18 IST" name="beforeMethod" finished-at="2021-06-05T20:33:18 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Setup started |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="promptAlertTestCase()[pri:2, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:18 IST" name="promptAlertTestCase" finished-at="2021-06-05T20:33:18 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[promptAlertTestCase() started |]]>
+            </line>
+            <line>
+              <![CDATA[Prompt Alert opened |]]>
+            </line>
+            <line>
+              <![CDATA[Switched foucs to alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert text is: This is a JavaScript Prompt! |]]>
+            </line>
+            <line>
+              <![CDATA[Text entered in prompt alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert closed |]]>
+            </line>
+            <line>
+              <![CDATA[Test case ended |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- promptAlertTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:activities.Activity9@47d9a273]" started-at="2021-06-05T20:33:18 IST" name="tearDown" finished-at="2021-06-05T20:33:21 IST" duration-ms="2762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ending Test |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- activities.Activity9 -->
+      <class name="activities.Activity5">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:32:44 IST" name="beforeMethod" finished-at="2021-06-05T20:32:54 IST" duration-ms="9902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="pageTitleTest()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:32:54 IST" name="pageTitleTest" finished-at="2021-06-05T20:32:54 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method signature="ButtonTest1()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:32:54 IST" name="ButtonTest1" finished-at="2021-06-05T20:32:54 IST" depends-on-methods="activities.Activity5.pageTitleTest" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonTest1 -->
+        <test-method signature="ButtonTest2()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:32:54 IST" name="ButtonTest2" finished-at="2021-06-05T20:32:54 IST" depends-on-methods="activities.Activity5.pageTitleTest" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonTest2 -->
+        <test-method signature="HeaderTest1()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:32:54 IST" name="HeaderTest1" finished-at="2021-06-05T20:32:55 IST" depends-on-methods="activities.Activity5.pageTitleTest" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderTest1 -->
+        <test-method signature="HeaderTest2()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:32:55 IST" name="HeaderTest2" finished-at="2021-06-05T20:32:55 IST" depends-on-methods="activities.Activity5.pageTitleTest" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderTest2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:activities.Activity5@51e69659]" started-at="2021-06-05T20:33:34 IST" name="afterMethod" finished-at="2021-06-05T20:33:35 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- activities.Activity5 -->
+      <class name="suiteExample.DemoTwo">
+        <test-method signature="TestCase()[pri:0, instance:suiteExample.DemoTwo@4310d43]" started-at="2021-06-05T20:32:54 IST" name="TestCase" finished-at="2021-06-05T20:32:54 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+      </class> <!-- suiteExample.DemoTwo -->
+      <class name="activities.Activity7">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:activities.Activity7@26e356f0]" started-at="2021-06-05T20:32:54 IST" name="beforeClass" finished-at="2021-06-05T20:33:16 IST" duration-ms="21673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:activities.Activity7@26e356f0]" started-at="2021-06-05T20:33:16 IST" name="loginTestCase" data-provider="Authentication" finished-at="2021-06-05T20:33:17 IST" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:activities.Activity7@26e356f0]" started-at="2021-06-05T20:33:17 IST" name="afterClass" finished-at="2021-06-05T20:33:20 IST" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- activities.Activity7 -->
+      <class name="activities.Activity6">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:activities.Activity6@54a7079e]" started-at="2021-06-05T20:32:54 IST" name="beforeClass" finished-at="2021-06-05T20:33:20 IST" duration-ms="26169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:activities.Activity6@54a7079e]" started-at="2021-06-05T20:33:20 IST" name="loginTestCase" finished-at="2021-06-05T20:33:21 IST" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:activities.Activity6@54a7079e]" started-at="2021-06-05T20:33:21 IST" name="afterClass" finished-at="2021-06-05T20:33:23 IST" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- activities.Activity6 -->
+      <class name="activities.Activity1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:activities.Activity1@47e2e487]" started-at="2021-06-05T20:32:54 IST" name="beforeMethod" finished-at="2021-06-05T20:33:04 IST" duration-ms="9453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="exampleTestCase()[pri:0, instance:activities.Activity1@47e2e487]" started-at="2021-06-05T20:33:04 IST" name="exampleTestCase" finished-at="2021-06-05T20:33:07 IST" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleTestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:activities.Activity1@47e2e487]" started-at="2021-06-05T20:33:07 IST" name="afterMethod" finished-at="2021-06-05T20:33:27 IST" duration-ms="20733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- activities.Activity1 -->
+      <class name="activities.Activity3">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:activities.Activity3@201a4587]" started-at="2021-06-05T20:32:54 IST" name="beforeClass" finished-at="2021-06-05T20:33:04 IST" duration-ms="9519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginTest()[pri:0, instance:activities.Activity3@201a4587]" started-at="2021-06-05T20:33:04 IST" name="loginTest" finished-at="2021-06-05T20:33:08 IST" duration-ms="4575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:activities.Activity3@201a4587]" started-at="2021-06-05T20:33:08 IST" name="afterClass" finished-at="2021-06-05T20:33:24 IST" duration-ms="15204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- activities.Activity3 -->
+      <class name="activities.Activity2">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:activities.Activity2@659499f1]" started-at="2021-06-05T20:32:39 IST" name="beforeMethod" finished-at="2021-06-05T20:32:44 IST" duration-ms="5654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:activities.Activity2@659499f1]" started-at="2021-06-05T20:33:21 IST" name="testCase1" finished-at="2021-06-05T20:33:21 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:activities.Activity2@659499f1]" started-at="2021-06-05T20:33:21 IST" name="testCase2" finished-at="2021-06-05T20:33:21 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase4()[pri:0, instance:activities.Activity2@659499f1]" started-at="2021-06-05T20:33:21 IST" name="testCase4" finished-at="2021-06-05T20:33:21 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test case
+at activities.Activity2.testCase4(Activity2.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:activities.Activity2@659499f1]" started-at="2021-06-05T20:33:33 IST" name="afterMethod" finished-at="2021-06-05T20:33:34 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- activities.Activity2 -->
+    </test> <!-- Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
